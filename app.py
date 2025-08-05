@@ -45,4 +45,4 @@ try:
     log_df = pd.read_csv("feedback_log.csv")
     st.dataframe(log_df.tail(5))
 except FileNotFoundError:
-    st.info("No feedback has been submitted yet."
+    st.info("No feedback has been submitted yet.")
